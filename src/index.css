@@ -1,3 +1,53 @@
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('../public/assets/fonts/ReformaGroteskBold.eot');
+    src: local('Reforma Grotesk Bold'), local('ReformaGroteskBold'),
+        url('../public/assets/fonts/ReformaGroteskBold.eot?#iefix') format('embedded-opentype'),
+        url('../public/assets/fonts/ReformaGroteskBold.woff2') format('woff2'),
+        url('../public/assets/fonts/ReformaGroteskBold.woff') format('woff'),
+        url('../public/assets/fonts/ReformaGroteskBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk Demi';
+    src: url('../public/assets/fonts/ReformaGroteskDemi.eot');
+    src: local('Reforma Grotesk Demi'), local('ReformaGroteskDemi'),
+        url('../public/assets/fonts/ReformaGroteskDemi.eot?#iefix') format('embedded-opentype'),
+        url('../public/assets/fonts/ReformaGroteskDemi.woff2') format('woff2'),
+        url('../public/assets/fonts/ReformaGroteskDemi.woff') format('woff'),
+        url('../public/assets/fonts/ReformaGroteskDemi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('../public/assets/fonts/ReformaGroteskMedium.eot');
+    src: local('Reforma Grotesk Medium'), local('ReformaGroteskMedium'),
+        url('../public/assets/fonts/ReformaGroteskMedium.eot?#iefix') format('embedded-opentype'),
+        url('../public/assets/fonts/ReformaGroteskMedium.woff2') format('woff2'),
+        url('../public/assets/fonts/ReformaGroteskMedium.woff') format('woff'),
+        url('../public/assets/fonts/ReformaGroteskMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: url('../public/assets/fonts/ReformaGroteskLight.eot');
+    src: local('Reforma Grotesk Light'), local('ReformaGroteskLight'),
+        url('../public/assets/fonts/ReformaGroteskLight.eot?#iefix') format('embedded-opentype'),
+        url('../public/assets/fonts/ReformaGroteskLight.woff2') format('woff2'),
+        url('../public/assets/fonts/ReformaGroteskLight.woff') format('woff'),
+        url('../public/assets/fonts/ReformaGroteskLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

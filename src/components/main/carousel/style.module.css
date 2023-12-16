@@ -1,0 +1,51 @@
+.carousel_content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 465px;
+}
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.red_block {
+    width: 366px;
+    height: 70px;
+    background: #DB3138;
+    position: absolute;
+    bottom: 24px;
+}
+.car1 {
+    background-image: url(./images/carusell-car1.png);
+}
+.car2 {
+    background-image: url(./images/carusell-car2.png);
+}
+.car3 {
+    background-image: url(./images/carusell-car3.png);
+}
+.car1, .car2, .car3 {
+    height: 350px;
+    width: 416px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.car_descr {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+    bottom: -7px;
+    text-align: center;
+    width: 286px;
+}
+

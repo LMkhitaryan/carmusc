@@ -1,0 +1,9 @@
+.main_wrapper {
+    background-color: #141414;
+    /* min-height: 100vh; */
+    overflow: hidden;
+}
+.container {
+    padding: 0 312px;
+    margin: 0 auto;
+}

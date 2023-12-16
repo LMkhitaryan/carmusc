@@ -1,0 +1,11 @@
+.header_contnet__figures {
+    display: flex;
+    justify-content: space-between;
+    width: 147px;
+}
+.header_contnet__figures div {
+    width: 15px;
+    height: 15px;
+    background-color: #DB3138;
+    transform: rotate(45deg);
+}

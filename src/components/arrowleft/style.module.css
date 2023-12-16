@@ -1,0 +1,15 @@
+.left {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #DB3138;
+    transform: rotate(45deg);
+    /* position: absolute; */
+    /* left: 10px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.left img {
+    transform: rotate(-50deg);
+}
