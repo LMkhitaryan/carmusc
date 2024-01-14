@@ -47,11 +47,11 @@ const Form = () => {
                                 <div style={{display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: '10px'}}>
                                     <div style={{display: 'flex', justifyContent: "space-between", alignItems: 'center'}}>
                                         <img src={Phoneicon} alt="phone" />
-                                        <span className={styles.social_tel}>8 (812) 123-45-67</span>
+                                  <a className={styles.social_tel} href="tel:8 (812) 123-45-67">8 (812) 123-45-67</a>
                                     </div>
                                     <div style={{display: 'flex', justifyContent: "space-between", alignItems: 'center'}}>
                                         <img src={EmailIcon} alt="email" />
-                                        <span className={styles.social_email}>test@test.ru</span>
+                                        <a className={styles.social_email} href="mailto:test@test.ru">test@test.ru</a>
                                     </div>
                                     
                                 </div>
